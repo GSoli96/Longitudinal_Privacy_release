@@ -1,0 +1,3 @@
+{"level": "16", "steps": 16, "attributes": 150, "calls_made": 150, "seconds_wall": 351.0, "calls_per_min": 25.64, "latency_median": 21.9, "latency_mean": 27.8, "latency_p90": 55.2, "http_429": 0, "http_5xx": 0, "failed": 0, "rate_429_share": 0.0}
+{"level": "24", "steps": 16, "attributes": 159, "calls_made": 159, "seconds_wall": 214.1, "calls_per_min": 44.56, "latency_median": 17.6, "latency_mean": 23.6, "latency_p90": 44.5, "http_429": 0, "http_5xx": 0, "failed": 0, "rate_429_share": 0.0}
+{"level": "32", "steps": 17, "attributes": 159, "calls_made": 159, "seconds_wall": 278.9, "calls_per_min": 34.21, "latency_median": 24.8, "latency_mean": 33.5, "latency_p90": 68.7, "http_429": 0, "http_5xx": 0, "failed": 0, "rate_429_share": 0.0}

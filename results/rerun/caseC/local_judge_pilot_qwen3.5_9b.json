@@ -1,0 +1,206 @@
+{
+  "model": "qwen3.5:9b",
+  "n": 103,
+  "think": false,
+  "invalid_local": 0,
+  "seconds_mean": 21.3,
+  "seconds_median": 20.0,
+  "seconds_max": 74.8,
+  "by_criterion": {
+    "plausible": {
+      "vs_majority": {
+        "n": 103,
+        "agreement": 0.951,
+        "kappa": 0.274,
+        "ac1": 0.948
+      },
+      "vs_gemma4:31b": {
+        "n": 103,
+        "agreement": 0.961,
+        "kappa": 0.322,
+        "ac1": 0.959
+      },
+      "vs_nemotron-3-ultra": {
+        "n": 103,
+        "agreement": 0.942,
+        "kappa": 0.237,
+        "ac1": 0.937
+      },
+      "vs_minimax-m3.1-flash": {
+        "n": 103,
+        "agreement": 0.971,
+        "kappa": 0.391,
+        "ac1": 0.969
+      },
+      "ref_gemma4:31b_vs_nemotron-3-ultra": {
+        "n": 103,
+        "agreement": 0.961,
+        "kappa": 0.647,
+        "ac1": 0.956
+      },
+      "ref_gemma4:31b_vs_minimax-m3.1-flash": {
+        "n": 103,
+        "agreement": 0.951,
+        "kappa": 0.419,
+        "ac1": 0.947
+      },
+      "ref_nemotron-3-ultra_vs_minimax-m3.1-flash": {
+        "n": 103,
+        "agreement": 0.971,
+        "kappa": 0.713,
+        "ac1": 0.968
+      },
+      "yes_local": 102,
+      "yes_majority": 97
+    },
+    "coherent": {
+      "vs_majority": {
+        "n": 103,
+        "agreement": 0.971,
+        "kappa": -0.013,
+        "ac1": 0.97
+      },
+      "vs_gemma4:31b": {
+        "n": 103,
+        "agreement": 0.99,
+        "kappa": 0.0,
+        "ac1": 0.99
+      },
+      "vs_nemotron-3-ultra": {
+        "n": 103,
+        "agreement": 0.951,
+        "kappa": 0.274,
+        "ac1": 0.948
+      },
+      "vs_minimax-m3.1-flash": {
+        "n": 103,
+        "agreement": 0.971,
+        "kappa": -0.013,
+        "ac1": 0.97
+      },
+      "ref_gemma4:31b_vs_nemotron-3-ultra": {
+        "n": 103,
+        "agreement": 0.942,
+        "kappa": 0.0,
+        "ac1": 0.938
+      },
+      "ref_gemma4:31b_vs_minimax-m3.1-flash": {
+        "n": 103,
+        "agreement": 0.981,
+        "kappa": 0.0,
+        "ac1": 0.98
+      },
+      "ref_nemotron-3-ultra_vs_minimax-m3.1-flash": {
+        "n": 103,
+        "agreement": 0.961,
+        "kappa": 0.485,
+        "ac1": 0.958
+      },
+      "yes_local": 102,
+      "yes_majority": 101
+    },
+    "realistic": {
+      "vs_majority": {
+        "n": 103,
+        "agreement": 0.388,
+        "kappa": 0.088,
+        "ac1": -0.212
+      },
+      "vs_gemma4:31b": {
+        "n": 103,
+        "agreement": 0.505,
+        "kappa": 0.161,
+        "ac1": 0.053
+      },
+      "vs_nemotron-3-ultra": {
+        "n": 103,
+        "agreement": 0.427,
+        "kappa": 0.11,
+        "ac1": -0.125
+      },
+      "vs_minimax-m3.1-flash": {
+        "n": 103,
+        "agreement": 0.282,
+        "kappa": 0.052,
+        "ac1": -0.436
+      },
+      "ref_gemma4:31b_vs_nemotron-3-ultra": {
+        "n": 103,
+        "agreement": 0.767,
+        "kappa": 0.477,
+        "ac1": 0.582
+      },
+      "ref_gemma4:31b_vs_minimax-m3.1-flash": {
+        "n": 103,
+        "agreement": 0.757,
+        "kappa": 0.396,
+        "ac1": 0.613
+      },
+      "ref_nemotron-3-ultra_vs_minimax-m3.1-flash": {
+        "n": 103,
+        "agreement": 0.757,
+        "kappa": 0.294,
+        "ac1": 0.638
+      },
+      "yes_local": 16,
+      "yes_majority": 77
+    },
+    "explicit": {
+      "vs_majority": {
+        "n": 103,
+        "agreement": 0.718,
+        "kappa": 0.215,
+        "ac1": 0.587
+      },
+      "vs_gemma4:31b": {
+        "n": 103,
+        "agreement": 0.65,
+        "kappa": 0.165,
+        "ac1": 0.456
+      },
+      "vs_nemotron-3-ultra": {
+        "n": 103,
+        "agreement": 0.777,
+        "kappa": 0.273,
+        "ac1": 0.689
+      },
+      "vs_minimax-m3.1-flash": {
+        "n": 103,
+        "agreement": 0.699,
+        "kappa": 0.199,
+        "ac1": 0.551
+      },
+      "ref_gemma4:31b_vs_nemotron-3-ultra": {
+        "n": 103,
+        "agreement": 0.777,
+        "kappa": 0.514,
+        "ac1": 0.593
+      },
+      "ref_gemma4:31b_vs_minimax-m3.1-flash": {
+        "n": 103,
+        "agreement": 0.854,
+        "kappa": 0.693,
+        "ac1": 0.724
+      },
+      "ref_nemotron-3-ultra_vs_minimax-m3.1-flash": {
+        "n": 103,
+        "agreement": 0.845,
+        "kappa": 0.646,
+        "ac1": 0.725
+      },
+      "yes_local": 6,
+      "yes_majority": 35
+    }
+  },
+  "full_agreement_with": {
+    "gemma4:31b": 0.417,
+    "nemotron-3-ultra": 0.34,
+    "minimax-m3.1-flash": 0.223
+  },
+  "new_majority_equal": {
+    "plausible": 0.981,
+    "coherent": 0.971,
+    "realistic": 0.806,
+    "explicit": 0.893
+  }
+}

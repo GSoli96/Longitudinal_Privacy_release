@@ -1,0 +1,13 @@
+{
+  "n": 103,
+  "identical_all_criteria": 95,
+  "identical_by_criterion": {
+    "plausible": 103,
+    "coherent": 103,
+    "realistic": 96,
+    "explicit": 101
+  },
+  "seconds_mean_262k": 21.3,
+  "seconds_mean_small": 11.4,
+  "small_context": 32768
+}

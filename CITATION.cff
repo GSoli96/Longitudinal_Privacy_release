@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the paper below."
+title: "Longitudinal Privacy Inference from Public-Sector Transparency Data with Large Language Models"
+abstract: >-
+  Pipeline and aggregated results for measuring longitudinal privacy
+  inference from public-sector administrative data with large language
+  models: public-knowledge extraction, longitudinal attribute inference,
+  multi-judge validation by majority vote, phishing generation and
+  detection.
+type: software
+authors:
+  - family-names: "Cirillo"
+    given-names: "Stefano"
+  - family-names: "Desiato"
+    given-names: "Domenico"
+  - family-names: "Polese"
+    given-names: "Giuseppe"
+  - family-names: "Solimando"
+    given-names: "Giandomenico"
+repository-code: "https://github.com/GSoli96/Longitudinal_Privacy_release"
+url: "https://github.com/GSoli96/Longitudinal_Privacy_release"
+version: "0.1.0"
+date-released: "2026-11-05"
+license: MIT
+keywords:
+  - privacy
+  - large language models
+  - attribute inference
+  - public-sector transparency
+  - phishing detection
+preferred-citation:
+  type: article
+  title: "Longitudinal Privacy Inference from Public-Sector Transparency Data with Large Language Models"
+  authors:
+    - family-names: "Cirillo"
+      given-names: "Stefano"
+    - family-names: "Desiato"
+      given-names: "Domenico"
+    - family-names: "Polese"
+      given-names: "Giuseppe"
+    - family-names: "Solimando"
+      given-names: "Giandomenico"
+  year: 2026            # PLACEHOLDER
+  journal: "PLACEHOLDER (venue to be decided)"
+  doi: "PLACEHOLDER"

@@ -1,0 +1,27 @@
+# Case F - central agency. Fully local; 18 complete profiles analysed.
+# qwen2.5-coder:7b performs inference AND phishing generation.
+# Inference carries the history of earlier steps (cumulative).
+case_id: "F"
+org_type: "central agency"
+
+base_url: "https://PLACEHOLDER-portal.example"
+html_index_dir: "data/private/F/index"
+downloads_dir: "data/private/F/downloads"
+docs_dir: "data/private/F/docs"
+
+inference_model: "qwen2.5-coder:7b"
+exposure_steps: [0.25, 0.50, 0.75, 1.00]
+max_chars: 6000
+carry_history: true
+
+judge_models: ["phi3.5", "gemma2:2b", "qwen2.5:3b"]   # three small local judges
+generation_models: ["qwen2.5-coder:7b"]
+# Case F: Spear uses plausible + realistic + non-explicit attributes (<=3);
+# BEC uses the role and unit taken from the crawl metadata (no link).
+max_attrs_in_prompt: 3
+generation_require_realistic_nonexplicit: true
+company_name: "PLACEHOLDER_ORG"
+company_domain: "placeholder.example"
+
+legit_corpus: "data/private/legit_it.json"
+output_dir: "outputs/F"

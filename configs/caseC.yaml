@@ -1,0 +1,25 @@
+# Case C - ministry. 95 managers; curricula and declarations.
+# Inference with a small 3B model run on commodity hardware.
+case_id: "C"
+org_type: "ministry"
+
+base_url: "https://PLACEHOLDER-portal.example"
+html_index_dir: "data/private/C/index"
+downloads_dir: "data/private/C/downloads"
+docs_dir: "data/private/C/docs"
+
+inference_model: "llama3.2:3b"
+exposure_steps: [0.25, 0.50, 0.75, 1.00]
+max_chars: 12000
+carry_history: false
+
+judge_models: ["gemma3:12b", "gpt-oss:20b", "gpt-oss:120b"]
+generation_models: ["gemma3:12b", "gemma4:31b"]
+max_attrs_in_prompt: 12
+# Case C restricts generation attributes further: realistic == yes AND explicit == no.
+generation_require_realistic_nonexplicit: true
+company_name: "PLACEHOLDER_ORG"
+company_domain: "placeholder.example"
+
+legit_corpus: "data/private/legit_it.json"
+output_dir: "outputs/C"

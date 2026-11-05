@@ -1,0 +1,51 @@
+# Longitudinal Privacy Inference pipeline — Python dependencies.
+# Python 3.11 is the reference interpreter.
+#
+# Versions pinned below are taken from the original project README
+# (public-knowledge extraction and text-extraction stages). The remaining
+# libraries are listed without a pin because the original experiments did
+# not record one; pin them to the versions you actually use before a
+# reproduction run.
+
+# --- Stage 1-2: crawling and text extraction (pinned in the source README) ---
+beautifulsoup4==4.14.3
+soupsieve==2.8.3
+certifi==2026.2.25
+packaging==26.0
+pdf2image==1.17.0
+pillow==12.1.1
+pypdf==6.7.5
+pytesseract==0.3.13
+tqdm==4.67.3
+truststore==0.10.4
+typing_extensions==4.15.0
+requests
+lxml
+pdfplumber            # Case F text extraction
+
+# --- Stages 3-5: inference, validation, phishing generation (LLM client) ---
+ollama                # Ollama Python client (local or Ollama-Cloud endpoint)
+python-dotenv         # load endpoint/API key from .env
+
+# --- Stage 6: detection ---
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+torch                 # Transformer detectors (Section B); optional, CPU or CUDA
+transformers          # Transformer detectors (Section B); optional
+spacy                 # Case G only: named-entity recognition
+# spaCy Italian model used in Case G (install separately):
+#   python -m spacy download it_core_news_lg
+
+# External tools (not pip): Poppler (pdf2image) and Tesseract OCR (pytesseract).
+
+# --- rerun pipeline (rerun/) ---
+rapidfuzz             # fuzzy anchoring of the cited evidence, character error rates
+pydantic
+statsmodels
+pytest
+openpyxl
+xlrd

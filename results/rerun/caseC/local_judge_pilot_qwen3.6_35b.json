@@ -1,0 +1,206 @@
+{
+  "model": "qwen3.6:35b",
+  "n": 28,
+  "think": false,
+  "invalid_local": 0,
+  "seconds_mean": 0.0,
+  "seconds_median": 0.0,
+  "seconds_max": 0.0,
+  "by_criterion": {
+    "plausible": {
+      "vs_majority": {
+        "n": 28,
+        "agreement": 0.964,
+        "kappa": 0.0,
+        "ac1": 0.963
+      },
+      "vs_gemma4:31b": {
+        "n": 28,
+        "agreement": 0.964,
+        "kappa": 0.0,
+        "ac1": 0.963
+      },
+      "vs_nemotron-3-ultra": {
+        "n": 28,
+        "agreement": 0.964,
+        "kappa": 0.0,
+        "ac1": 0.963
+      },
+      "vs_minimax-m3.1-flash": {
+        "n": 28,
+        "agreement": 0.964,
+        "kappa": 0.0,
+        "ac1": 0.963
+      },
+      "ref_gemma4:31b_vs_nemotron-3-ultra": {
+        "n": 28,
+        "agreement": 1.0,
+        "kappa": 1.0,
+        "ac1": 1.0
+      },
+      "ref_gemma4:31b_vs_minimax-m3.1-flash": {
+        "n": 28,
+        "agreement": 1.0,
+        "kappa": 1.0,
+        "ac1": 1.0
+      },
+      "ref_nemotron-3-ultra_vs_minimax-m3.1-flash": {
+        "n": 28,
+        "agreement": 1.0,
+        "kappa": 1.0,
+        "ac1": 1.0
+      },
+      "yes_local": 28,
+      "yes_majority": 27
+    },
+    "coherent": {
+      "vs_majority": {
+        "n": 28,
+        "agreement": 0.964,
+        "kappa": 0.0,
+        "ac1": 0.963
+      },
+      "vs_gemma4:31b": {
+        "n": 28,
+        "agreement": 0.964,
+        "kappa": 0.0,
+        "ac1": 0.963
+      },
+      "vs_nemotron-3-ultra": {
+        "n": 28,
+        "agreement": 0.929,
+        "kappa": 0.0,
+        "ac1": 0.923
+      },
+      "vs_minimax-m3.1-flash": {
+        "n": 28,
+        "agreement": 0.964,
+        "kappa": 0.0,
+        "ac1": 0.963
+      },
+      "ref_gemma4:31b_vs_nemotron-3-ultra": {
+        "n": 28,
+        "agreement": 0.964,
+        "kappa": 0.65,
+        "ac1": 0.96
+      },
+      "ref_gemma4:31b_vs_minimax-m3.1-flash": {
+        "n": 28,
+        "agreement": 1.0,
+        "kappa": 1.0,
+        "ac1": 1.0
+      },
+      "ref_nemotron-3-ultra_vs_minimax-m3.1-flash": {
+        "n": 28,
+        "agreement": 0.964,
+        "kappa": 0.65,
+        "ac1": 0.96
+      },
+      "yes_local": 28,
+      "yes_majority": 27
+    },
+    "realistic": {
+      "vs_majority": {
+        "n": 28,
+        "agreement": 0.714,
+        "kappa": 0.243,
+        "ac1": 0.569
+      },
+      "vs_gemma4:31b": {
+        "n": 28,
+        "agreement": 0.857,
+        "kappa": 0.659,
+        "ac1": 0.759
+      },
+      "vs_nemotron-3-ultra": {
+        "n": 28,
+        "agreement": 0.714,
+        "kappa": 0.243,
+        "ac1": 0.569
+      },
+      "vs_minimax-m3.1-flash": {
+        "n": 28,
+        "agreement": 0.643,
+        "kappa": 0.054,
+        "ac1": 0.462
+      },
+      "ref_gemma4:31b_vs_nemotron-3-ultra": {
+        "n": 28,
+        "agreement": 0.857,
+        "kappa": 0.44,
+        "ac1": 0.811
+      },
+      "ref_gemma4:31b_vs_minimax-m3.1-flash": {
+        "n": 28,
+        "agreement": 0.786,
+        "kappa": 0.16,
+        "ac1": 0.716
+      },
+      "ref_nemotron-3-ultra_vs_minimax-m3.1-flash": {
+        "n": 28,
+        "agreement": 0.929,
+        "kappa": 0.462,
+        "ac1": 0.918
+      },
+      "yes_local": 18,
+      "yes_majority": 26
+    },
+    "explicit": {
+      "vs_majority": {
+        "n": 28,
+        "agreement": 0.714,
+        "kappa": 0.429,
+        "ac1": 0.472
+      },
+      "vs_gemma4:31b": {
+        "n": 28,
+        "agreement": 0.643,
+        "kappa": 0.34,
+        "ac1": 0.317
+      },
+      "vs_nemotron-3-ultra": {
+        "n": 28,
+        "agreement": 0.786,
+        "kappa": 0.533,
+        "ac1": 0.62
+      },
+      "vs_minimax-m3.1-flash": {
+        "n": 28,
+        "agreement": 0.679,
+        "kappa": 0.33,
+        "ac1": 0.417
+      },
+      "ref_gemma4:31b_vs_nemotron-3-ultra": {
+        "n": 28,
+        "agreement": 0.786,
+        "kappa": 0.58,
+        "ac1": 0.571
+      },
+      "ref_gemma4:31b_vs_minimax-m3.1-flash": {
+        "n": 28,
+        "agreement": 0.821,
+        "kappa": 0.646,
+        "ac1": 0.643
+      },
+      "ref_nemotron-3-ultra_vs_minimax-m3.1-flash": {
+        "n": 28,
+        "agreement": 0.893,
+        "kappa": 0.784,
+        "ac1": 0.788
+      },
+      "yes_local": 6,
+      "yes_majority": 14
+    }
+  },
+  "full_agreement_with": {
+    "gemma4:31b": 0.5,
+    "nemotron-3-ultra": 0.536,
+    "minimax-m3.1-flash": 0.464
+  },
+  "new_majority_equal": {
+    "plausible": 1.0,
+    "coherent": 1.0,
+    "realistic": 0.857,
+    "explicit": 0.893
+  }
+}

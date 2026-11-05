@@ -1,0 +1,95 @@
+{
+  "global": {
+    "n_attributes": 151,
+    "plausibility": 0.9669,
+    "coherence": 0.9536,
+    "realism": 0.947,
+    "explicitness": 0.0662,
+    "iqs": 0.6,
+    "dir": 0.8874,
+    "hallucination": 0.0331,
+    "users": 16
+  },
+  "per_step": {
+    "step_1": {
+      "n_attributes": 0,
+      "plausibility": 0.0,
+      "coherence": 0.0,
+      "realism": 0.0,
+      "explicitness": 0.0,
+      "iqs": 0.0,
+      "dir": 0.0,
+      "hallucination": 0.0
+    },
+    "step_2": {
+      "n_attributes": 0,
+      "plausibility": 0.0,
+      "coherence": 0.0,
+      "realism": 0.0,
+      "explicitness": 0.0,
+      "iqs": 0.0,
+      "dir": 0.0,
+      "hallucination": 0.0
+    },
+    "step_3": {
+      "n_attributes": 0,
+      "plausibility": 0.0,
+      "coherence": 0.0,
+      "realism": 0.0,
+      "explicitness": 0.0,
+      "iqs": 0.0,
+      "dir": 0.0,
+      "hallucination": 0.0
+    },
+    "step_4": {
+      "n_attributes": 151,
+      "plausibility": 0.9669,
+      "coherence": 0.9536,
+      "realism": 0.947,
+      "explicitness": 0.0662,
+      "iqs": 0.6,
+      "dir": 0.8874,
+      "hallucination": 0.0331
+    }
+  },
+  "per_judge": {
+    "judges_fase4": {
+      "n_attributes": 151,
+      "plausibility": 0.9669,
+      "coherence": 0.9536,
+      "realism": 0.947,
+      "explicitness": 0.0662,
+      "iqs": 0.6,
+      "dir": 0.8874,
+      "hallucination": 0.0331
+    }
+  },
+  "pes": {
+    "as_reported": {
+      "cumulative_mean_per_step": {
+        "step_1": null,
+        "step_2": null,
+        "step_3": null,
+        "step_4": 0.625
+      },
+      "final_distribution": {
+        "mean": 0.625,
+        "median": 0.0,
+        "max": 4
+      }
+    },
+    "paper_text": {
+      "cumulative_mean_per_step": {
+        "step_1": null,
+        "step_2": null,
+        "step_3": null,
+        "step_4": 8.25
+      },
+      "final_distribution": {
+        "mean": 8.25,
+        "median": 8.0,
+        "max": 18
+      }
+    }
+  }
+}

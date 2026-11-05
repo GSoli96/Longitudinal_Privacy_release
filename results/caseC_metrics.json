@@ -1,0 +1,153 @@
+{
+  "global": {
+    "n_attributes": 4277,
+    "plausibility": 0.8564,
+    "coherence": 0.8466,
+    "realism": 0.891,
+    "explicitness": 0.2153,
+    "iqs": 0.605,
+    "dir": 0.6198,
+    "hallucination": 0.1012,
+    "users": 95
+  },
+  "per_step": {
+    "step_1": {
+      "n_attributes": 989,
+      "plausibility": 0.8807,
+      "coherence": 0.8645,
+      "realism": 0.8979,
+      "explicitness": 0.2275,
+      "iqs": 0.6196,
+      "dir": 0.6289,
+      "hallucination": 0.0961
+    },
+    "step_2": {
+      "n_attributes": 1070,
+      "plausibility": 0.8449,
+      "coherence": 0.8336,
+      "realism": 0.8841,
+      "explicitness": 0.2168,
+      "iqs": 0.5993,
+      "dir": 0.5991,
+      "hallucination": 0.1037
+    },
+    "step_3": {
+      "n_attributes": 1107,
+      "plausibility": 0.8573,
+      "coherence": 0.8482,
+      "realism": 0.8988,
+      "explicitness": 0.2096,
+      "iqs": 0.6047,
+      "dir": 0.6287,
+      "hallucination": 0.0939
+    },
+    "step_4": {
+      "n_attributes": 1111,
+      "plausibility": 0.8452,
+      "coherence": 0.8416,
+      "realism": 0.8839,
+      "explicitness": 0.2088,
+      "iqs": 0.5977,
+      "dir": 0.6229,
+      "hallucination": 0.1107
+    }
+  },
+  "per_judge": {
+    "gemma3_12b": {
+      "n_attributes": 4277,
+      "plausibility": 0.9668,
+      "coherence": 0.967,
+      "realism": 0.9682,
+      "explicitness": 0.231,
+      "iqs": 0.6728,
+      "dir": 0.7353,
+      "hallucination": 0.0313
+    },
+    "gpt-oss_120b": {
+      "n_attributes": 4277,
+      "plausibility": 0.7938,
+      "coherence": 0.7975,
+      "realism": 0.8473,
+      "explicitness": 0.1894,
+      "iqs": 0.5635,
+      "dir": 0.5834,
+      "hallucination": 0.1375
+    },
+    "gpt-oss_20b": {
+      "n_attributes": 4277,
+      "plausibility": 0.8298,
+      "coherence": 0.7992,
+      "realism": 0.8532,
+      "explicitness": 0.2656,
+      "iqs": 0.6027,
+      "dir": 0.5286,
+      "hallucination": 0.141
+    }
+  },
+  "pes": {
+    "as_reported": {
+      "cumulative_mean_per_step": {
+        "step_1": 2.3684,
+        "step_2": 4.8105,
+        "step_3": 7.2526,
+        "step_4": 9.6842
+      },
+      "final_distribution": {
+        "mean": 9.684,
+        "median": 8,
+        "max": 36
+      }
+    },
+    "paper_text": {
+      "cumulative_mean_per_step": {
+        "step_1": 6.5368,
+        "step_2": 13.2632,
+        "step_3": 20.5579,
+        "step_4": 27.8316
+      },
+      "final_distribution": {
+        "mean": 27.832,
+        "median": 26,
+        "max": 53
+      }
+    }
+  },
+  "detection": {
+    "generated_classical_f1": {
+      "Logistic Regression": 1.0,
+      "Multinomial Naive Bayes": 1.0,
+      "Complement Naive Bayes": 1.0,
+      "Linear SVC": 1.0,
+      "SGD Classifier": 1.0,
+      "Decision Tree": 1.0,
+      "Random Forest": 1.0,
+      "Extra Trees": 1.0,
+      "Gradient Boosting": 1.0,
+      "AdaBoost": 1.0
+    },
+    "benchmark_ceas08_classical_f1": {
+      "Linear SVC": 0.9978,
+      "SGD Classifier": 0.9975,
+      "Logistic Regression": 0.9971,
+      "Extra Trees": 0.9962,
+      "Random Forest": 0.9947,
+      "Gradient Boosting": 0.9927,
+      "Decision Tree": 0.9837,
+      "Multinomial Naive Bayes": 0.9827,
+      "Complement Naive Bayes": 0.9813,
+      "AdaBoost": 0.9755
+    },
+    "generated_llm_f1": {
+      "gemma4:31b-cloud_zero_shot": 1.0,
+      "kimi-k2.6:cloud_zero_shot": 1.0,
+      "deepseek-v4-flash:cloud_zero_shot": 1.0,
+      "gpt-oss:120b-cloud_zero_shot": 1.0,
+      "gpt-oss:20b-cloud_zero_shot": 1.0,
+      "gemma4:31b-cloud_few_shot": 1.0,
+      "kimi-k2.6:cloud_few_shot": 1.0,
+      "deepseek-v4-flash:cloud_few_shot": 1.0,
+      "gpt-oss:120b-cloud_few_shot": 1.0,
+      "gpt-oss:20b-cloud_few_shot": 1.0
+    }
+  }
+}

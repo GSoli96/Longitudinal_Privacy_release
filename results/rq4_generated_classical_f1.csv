@@ -1,0 +1,71 @@
+case,model,f1
+A,Logistic Regression,1.0
+A,Multinomial Naive Bayes,1.0
+A,Complement Naive Bayes,1.0
+A,Linear SVC,1.0
+A,SGD Classifier,1.0
+A,Decision Tree,1.0
+A,Random Forest,1.0
+A,Extra Trees,1.0
+A,AdaBoost,1.0
+A,Gradient Boosting,0.9956
+B,Logistic Regression,1.0
+B,Multinomial Naive Bayes,1.0
+B,Complement Naive Bayes,1.0
+B,Linear SVC,1.0
+B,SGD Classifier,1.0
+B,Decision Tree,1.0
+B,Random Forest,1.0
+B,Extra Trees,1.0
+B,Gradient Boosting,1.0
+B,AdaBoost,1.0
+C,Logistic Regression,1.0
+C,Multinomial Naive Bayes,1.0
+C,Complement Naive Bayes,1.0
+C,Linear SVC,1.0
+C,SGD Classifier,1.0
+C,Decision Tree,1.0
+C,Random Forest,1.0
+C,Extra Trees,1.0
+C,Gradient Boosting,1.0
+C,AdaBoost,1.0
+D,Logistic Regression,1.0
+D,Multinomial Naive Bayes,1.0
+D,Complement Naive Bayes,1.0
+D,Linear SVC,1.0
+D,SGD Classifier,1.0
+D,Decision Tree,1.0
+D,Random Forest,1.0
+D,Extra Trees,1.0
+D,Gradient Boosting,1.0
+D,AdaBoost,1.0
+E,Logistic Regression,1.0
+E,Multinomial Naive Bayes,1.0
+E,Complement Naive Bayes,1.0
+E,Linear SVC,1.0
+E,SGD Classifier,1.0
+E,Decision Tree,1.0
+E,Random Forest,1.0
+E,Extra Trees,1.0
+E,Gradient Boosting,1.0
+E,AdaBoost,1.0
+G,Logistic Regression,1.0
+G,Multinomial Naive Bayes,1.0
+G,Complement Naive Bayes,1.0
+G,Linear SVC,1.0
+G,SGD Classifier,1.0
+G,Random Forest,1.0
+G,Extra Trees,1.0
+G,AdaBoost,1.0
+G,Decision Tree,0.9841
+G,Gradient Boosting,0.9841
+H,Logistic Regression,1.0
+H,Multinomial Naive Bayes,1.0
+H,Complement Naive Bayes,1.0
+H,Linear SVC,1.0
+H,SGD Classifier,1.0
+H,Decision Tree,1.0
+H,Random Forest,1.0
+H,Extra Trees,1.0
+H,Gradient Boosting,1.0
+H,AdaBoost,1.0

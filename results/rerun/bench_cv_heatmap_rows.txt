@@ -1,0 +1,11 @@
+% columns: CEAS_08, Enron, Ling, Nazario, Nigerian_Fraud, SpamAssasin, generated corpora (person split); cells: mean F1 of 5-fold CV
+Logistic Regression & \gcell{0.996} & \gcell{0.989} & \gcell{0.960} & \gcell{0.992} & \gcell{0.995} & \gcell{0.978} & \gcell{1.000} \\
+Multinomial Naive Bayes & \gcell{0.985} & \gcell{0.987} & \gcell{0.988} & \gcell{0.992} & \gcell{0.994} & \gcell{0.978} & \gcell{1.000} \\
+Complement Naive Bayes & \gcell{0.984} & \gcell{0.987} & \gcell{0.980} & \gcell{0.992} & \gcell{0.994} & \gcell{0.980} & \gcell{1.000} \\
+Linear SVC & \gcell{0.998} & \gcell{0.990} & \gcell{0.981} & \gcell{0.993} & \gcell{0.996} & \gcell{0.984} & \gcell{1.000} \\
+SGD Classifier & \gcell{0.998} & \gcell{0.990} & \gcell{0.984} & \gcell{0.993} & \gcell{0.996} & \gcell{0.984} & \gcell{1.000} \\
+Decision Tree & \gcell{0.981} & \gcell{0.935} & \gcell{0.878} & \gcell{0.939} & \gcell{0.974} & \gcell{0.893} & \gcell{0.997} \\
+Random Forest & \gcell{0.992} & \gcell{0.981} & \gcell{0.952} & \gcell{0.986} & \gcell{0.993} & \gcell{0.964} & \gcell{1.000} \\
+Extra Trees & \gcell{0.995} & \gcell{0.984} & \gcell{0.949} & \gcell{0.988} & \gcell{0.993} & \gcell{0.970} & \gcell{1.000} \\
+Gradient Boosting & \gcell{0.990} & \gcell{0.970} & \gcell{0.950} & \gcell{0.974} & \gcell{0.991} & \gcell{0.958} & \gcell{0.998} \\
+AdaBoost & \gcell{0.974} & \gcell{0.936} & \gcell{0.962} & \gcell{0.976} & \gcell{0.991} & \gcell{0.951} & \gcell{1.000} \\

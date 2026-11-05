@@ -1,0 +1,40 @@
+# Private data and secrets — never commit
+.env
+*.env
+!configs/example.env
+data/*
+!data/README.md
+**/downloads/
+**/downloads1/
+**/REDOC/
+**/REDOWN/
+**/*_documents/
+# Anything that could hold raw personal records
+*.p7m
+
+# Model / run artefacts
+*.pkl
+*.pt
+*.safetensors
+outputs/
+**/checkpoints/
+**/llm_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv*/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# local credentials, never commit
+.secrets/
+
+# Test cache
+.pytest_cache/
+# Working drafts for the authors (kept in the private data repository)
+results/rerun/*.draft.md

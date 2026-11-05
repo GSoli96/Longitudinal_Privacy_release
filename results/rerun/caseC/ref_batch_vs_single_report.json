@@ -1,0 +1,354 @@
+{
+ "n_attributes": 300,
+ "n_persons": 93,
+ "steps": {
+  "75": 89,
+  "50": 84,
+  "100": 54,
+  "25": 73
+ },
+ "step_size_mean": 10.92,
+ "tables": {
+  "gemma4:31b": {
+   "plausible": {
+    "n_valid_pairs": 300,
+    "table": {
+     "yes_yes": 290,
+     "yes_no": 4,
+     "no_yes": 1,
+     "no_no": 5
+    },
+    "percent_agreement": 0.9833333333333333,
+    "cohen_kappa": 0.6584699453551899,
+    "gwet_ac1": 0.9824791940429259,
+    "mcnemar_p": 0.375,
+    "bias": 0.01
+   },
+   "coherent": {
+    "n_valid_pairs": 300,
+    "table": {
+     "yes_yes": 290,
+     "yes_no": 3,
+     "no_yes": 1,
+     "no_no": 6
+    },
+    "percent_agreement": 0.9866666666666667,
+    "cohen_kappa": 0.7432605905006426,
+    "gwet_ac1": 0.985936621038815,
+    "mcnemar_p": 0.625,
+    "bias": 0.006666666666666667
+   },
+   "realistic": {
+    "n_valid_pairs": 300,
+    "table": {
+     "yes_yes": 237,
+     "yes_no": 9,
+     "no_yes": 14,
+     "no_no": 40
+    },
+    "percent_agreement": 0.9233333333333333,
+    "cohen_kappa": 0.7305529522024368,
+    "gwet_ac1": 0.8928646290243695,
+    "mcnemar_p": 0.4048728942871094,
+    "bias": -0.016666666666666666
+   },
+   "explicit": {
+    "n_valid_pairs": 300,
+    "table": {
+     "yes_yes": 152,
+     "yes_no": 32,
+     "no_yes": 10,
+     "no_no": 106
+    },
+    "percent_agreement": 0.86,
+    "cohen_kappa": 0.714828897338403,
+    "gwet_ac1": 0.726431890225368,
+    "mcnemar_p": 0.0009406740282429382,
+    "bias": 0.07333333333333333
+   }
+  },
+  "nemotron-3-ultra": {
+   "plausible": {
+    "n_valid_pairs": 300,
+    "table": {
+     "yes_yes": 286,
+     "yes_no": 0,
+     "no_yes": 0,
+     "no_no": 14
+    },
+    "percent_agreement": 1.0,
+    "cohen_kappa": 1.0,
+    "gwet_ac1": 1.0,
+    "mcnemar_p": 1.0,
+    "bias": 0.0
+   },
+   "coherent": {
+    "n_valid_pairs": 300,
+    "table": {
+     "yes_yes": 283,
+     "yes_no": 0,
+     "no_yes": 0,
+     "no_no": 17
+    },
+    "percent_agreement": 1.0,
+    "cohen_kappa": 1.0,
+    "gwet_ac1": 1.0,
+    "mcnemar_p": 1.0,
+    "bias": 0.0
+   },
+   "realistic": {
+    "n_valid_pairs": 300,
+    "table": {
+     "yes_yes": 262,
+     "yes_no": 0,
+     "no_yes": 0,
+     "no_no": 38
+    },
+    "percent_agreement": 1.0,
+    "cohen_kappa": 1.0,
+    "gwet_ac1": 1.0,
+    "mcnemar_p": 1.0,
+    "bias": 0.0
+   },
+   "explicit": {
+    "n_valid_pairs": 300,
+    "table": {
+     "yes_yes": 112,
+     "yes_no": 0,
+     "no_yes": 0,
+     "no_no": 188
+    },
+    "percent_agreement": 1.0,
+    "cohen_kappa": 1.0,
+    "gwet_ac1": 1.0,
+    "mcnemar_p": 1.0,
+    "bias": 0.0
+   }
+  },
+  "minimax-m3.1-flash": {
+   "plausible": {
+    "n_valid_pairs": 300,
+    "table": {
+     "yes_yes": 287,
+     "yes_no": 0,
+     "no_yes": 3,
+     "no_no": 10
+    },
+    "percent_agreement": 0.99,
+    "cohen_kappa": 0.8644578313253012,
+    "gwet_ac1": 0.989204037689904,
+    "mcnemar_p": 0.25,
+    "bias": -0.01
+   },
+   "coherent": {
+    "n_valid_pairs": 300,
+    "table": {
+     "yes_yes": 283,
+     "yes_no": 0,
+     "no_yes": 6,
+     "no_no": 11
+    },
+    "percent_agreement": 0.98,
+    "cohen_kappa": 0.7757288811363069,
+    "gwet_ac1": 0.9780466386964581,
+    "mcnemar_p": 0.03125,
+    "bias": -0.02
+   },
+   "realistic": {
+    "n_valid_pairs": 300,
+    "table": {
+     "yes_yes": 270,
+     "yes_no": 5,
+     "no_yes": 13,
+     "no_no": 12
+    },
+    "percent_agreement": 0.94,
+    "cohen_kappa": 0.5404255319148932,
+    "gwet_ac1": 0.9310186249712576,
+    "mcnemar_p": 0.09625244140625,
+    "bias": -0.02666666666666667
+   },
+   "explicit": {
+    "n_valid_pairs": 300,
+    "table": {
+     "yes_yes": 115,
+     "yes_no": 12,
+     "no_yes": 21,
+     "no_no": 152
+    },
+    "percent_agreement": 0.89,
+    "cohen_kappa": 0.7768058436288213,
+    "gwet_ac1": 0.7832963039980737,
+    "mcnemar_p": 0.16275565745308995,
+    "bias": -0.03
+   }
+  }
+ },
+ "compare": {
+  "n_attributes": 300,
+  "n_persons": 93,
+  "batch": {
+   "DIR": 0.51,
+   "E": 0.4533333333333333,
+   "IQS": 0.7446666666666667,
+   "P": 0.9666666666666667,
+   "C": 0.9633333333333334,
+   "R": 0.8866666666666667,
+   "n_complete": 300,
+   "n_undecided": 0
+  },
+  "single": {
+   "DIR": 0.51,
+   "E": 0.4533333333333333,
+   "IQS": 0.7453333333333334,
+   "P": 0.9633333333333334,
+   "C": 0.9666666666666667,
+   "R": 0.89,
+   "n_complete": 300,
+   "n_undecided": 0
+  },
+  "difference": {
+   "DIR": {
+    "estimate": 0.0,
+    "lo": -0.026058631921824116,
+    "hi": 0.02547770700636942,
+    "n_units": 93,
+    "n_valid_resamples": 5000
+   },
+   "E": {
+    "estimate": 0.0,
+    "lo": -0.023892830426854892,
+    "hi": 0.024540415455817418,
+    "n_units": 93,
+    "n_valid_resamples": 5000
+   },
+   "IQS": {
+    "estimate": -0.0006666666666667043,
+    "lo": -0.012179659498207734,
+    "hi": 0.010921501706484652,
+    "n_units": 93,
+    "n_valid_resamples": 5000
+   }
+  }
+ },
+ "rule": {
+  "dir_difference_ok": true,
+  "explicit_ac1_ok": false,
+  "explicit_ac1": {
+   "gemma4:31b": 0.726431890225368,
+   "nemotron-3-ultra": 1.0,
+   "minimax-m3.1-flash": 0.7832963039980737
+  },
+  "accepted": false
+ },
+ "position": {
+  "plausible": {
+   "first_half": {
+    "rate": 0.010351966873706004,
+    "n": 483
+   },
+   "second_half": {
+    "rate": 0.007194244604316547,
+    "n": 417
+   },
+   "pos_1_3": {
+    "rate": 0.007575757575757576,
+    "n": 264
+   },
+   "pos_4_6": {
+    "rate": 0.0149812734082397,
+    "n": 267
+   },
+   "pos_7_plus": {
+    "rate": 0.005420054200542005,
+    "n": 369
+   }
+  },
+  "coherent": {
+   "first_half": {
+    "rate": 0.008281573498964804,
+    "n": 483
+   },
+   "second_half": {
+    "rate": 0.014388489208633094,
+    "n": 417
+   },
+   "pos_1_3": {
+    "rate": 0.007575757575757576,
+    "n": 264
+   },
+   "pos_4_6": {
+    "rate": 0.0149812734082397,
+    "n": 267
+   },
+   "pos_7_plus": {
+    "rate": 0.01084010840108401,
+    "n": 369
+   }
+  },
+  "realistic": {
+   "first_half": {
+    "rate": 0.028985507246376812,
+    "n": 483
+   },
+   "second_half": {
+    "rate": 0.06474820143884892,
+    "n": 417
+   },
+   "pos_1_3": {
+    "rate": 0.03409090909090909,
+    "n": 264
+   },
+   "pos_4_6": {
+    "rate": 0.026217228464419477,
+    "n": 267
+   },
+   "pos_7_plus": {
+    "rate": 0.06775067750677506,
+    "n": 369
+   }
+  },
+  "explicit": {
+   "first_half": {
+    "rate": 0.062111801242236024,
+    "n": 483
+   },
+   "second_half": {
+    "rate": 0.1079136690647482,
+    "n": 417
+   },
+   "pos_1_3": {
+    "rate": 0.04924242424242424,
+    "n": 264
+   },
+   "pos_4_6": {
+    "rate": 0.07865168539325842,
+    "n": 267
+   },
+   "pos_7_plus": {
+    "rate": 0.1111111111111111,
+    "n": 369
+   }
+  }
+ },
+ "disagreements": {
+  "gemma4:31b": {
+   "plausible": 5,
+   "coherent": 4,
+   "realistic": 23,
+   "explicit": 42
+  },
+  "nemotron-3-ultra": {
+   "plausible": 0,
+   "coherent": 0,
+   "realistic": 0,
+   "explicit": 0
+  },
+  "minimax-m3.1-flash": {
+   "plausible": 3,
+   "coherent": 6,
+   "realistic": 18,
+   "explicit": 33
+  }
+ }
+}

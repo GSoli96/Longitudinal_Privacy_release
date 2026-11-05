@@ -1,0 +1,571 @@
+{
+ "corpora": {
+  "A/gptoss": {
+   "by_attack": {
+    "BEC": {
+     "n_messages": 50,
+     "substring": {
+      "counts": {
+       "high": 0,
+       "low": 41,
+       "medium": 9
+      },
+      "mean_keywords_present": 0.92,
+      "messages_with_keyword": {
+       "data": 15,
+       "dichiarazione": 0,
+       "funzione": 0,
+       "incarico": 0,
+       "responsabile": 21,
+       "ufficio": 10
+      },
+      "shares": {
+       "high": 0.0,
+       "low": 0.82,
+       "medium": 0.18
+      }
+     },
+     "word": {
+      "counts": {
+       "high": 0,
+       "low": 44,
+       "medium": 6
+      },
+      "mean_keywords_present": 0.78,
+      "messages_with_keyword": {
+       "data": 8,
+       "dichiarazione": 0,
+       "funzione": 0,
+       "incarico": 0,
+       "responsabile": 21,
+       "ufficio": 10
+      },
+      "shares": {
+       "high": 0.0,
+       "low": 0.88,
+       "medium": 0.12
+      }
+     }
+    },
+    "SpearPhishing": {
+     "n_messages": 50,
+     "substring": {
+      "counts": {
+       "high": 0,
+       "low": 35,
+       "medium": 15
+      },
+      "mean_keywords_present": 1.06,
+      "messages_with_keyword": {
+       "data": 7,
+       "dichiarazione": 1,
+       "funzione": 0,
+       "incarico": 0,
+       "responsabile": 33,
+       "ufficio": 12
+      },
+      "shares": {
+       "high": 0.0,
+       "low": 0.7,
+       "medium": 0.3
+      }
+     },
+     "word": {
+      "counts": {
+       "high": 0,
+       "low": 37,
+       "medium": 13
+      },
+      "mean_keywords_present": 1.0,
+      "messages_with_keyword": {
+       "data": 4,
+       "dichiarazione": 1,
+       "funzione": 0,
+       "incarico": 0,
+       "responsabile": 33,
+       "ufficio": 12
+      },
+      "shares": {
+       "high": 0.0,
+       "low": 0.74,
+       "medium": 0.26
+      }
+     }
+    }
+   },
+   "generator": "gpt-oss:20b-local",
+   "n_messages": 100,
+   "substring": {
+    "counts": {
+     "high": 0,
+     "low": 76,
+     "medium": 24
+    },
+    "mean_keywords_present": 0.99,
+    "messages_with_keyword": {
+     "data": 22,
+     "dichiarazione": 1,
+     "funzione": 0,
+     "incarico": 0,
+     "responsabile": 54,
+     "ufficio": 22
+    },
+    "shares": {
+     "high": 0.0,
+     "low": 0.76,
+     "medium": 0.24
+    }
+   },
+   "word": {
+    "counts": {
+     "high": 0,
+     "low": 81,
+     "medium": 19
+    },
+    "mean_keywords_present": 0.89,
+    "messages_with_keyword": {
+     "data": 12,
+     "dichiarazione": 1,
+     "funzione": 0,
+     "incarico": 0,
+     "responsabile": 54,
+     "ufficio": 22
+    },
+    "shares": {
+     "high": 0.0,
+     "low": 0.81,
+     "medium": 0.19
+    }
+   }
+  },
+  "A/llama31": {
+   "by_attack": {
+    "BEC": {
+     "n_messages": 50,
+     "substring": {
+      "counts": {
+       "high": 0,
+       "low": 49,
+       "medium": 1
+      },
+      "mean_keywords_present": 0.22,
+      "messages_with_keyword": {
+       "data": 1,
+       "dichiarazione": 0,
+       "funzione": 0,
+       "incarico": 1,
+       "responsabile": 6,
+       "ufficio": 3
+      },
+      "shares": {
+       "high": 0.0,
+       "low": 0.98,
+       "medium": 0.02
+      }
+     },
+     "word": {
+      "counts": {
+       "high": 0,
+       "low": 49,
+       "medium": 1
+      },
+      "mean_keywords_present": 0.22,
+      "messages_with_keyword": {
+       "data": 1,
+       "dichiarazione": 0,
+       "funzione": 0,
+       "incarico": 1,
+       "responsabile": 6,
+       "ufficio": 3
+      },
+      "shares": {
+       "high": 0.0,
+       "low": 0.98,
+       "medium": 0.02
+      }
+     }
+    },
+    "SpearPhishing": {
+     "n_messages": 50,
+     "substring": {
+      "counts": {
+       "high": 0,
+       "low": 45,
+       "medium": 5
+      },
+      "mean_keywords_present": 0.72,
+      "messages_with_keyword": {
+       "data": 1,
+       "dichiarazione": 0,
+       "funzione": 0,
+       "incarico": 3,
+       "responsabile": 5,
+       "ufficio": 27
+      },
+      "shares": {
+       "high": 0.0,
+       "low": 0.9,
+       "medium": 0.1
+      }
+     },
+     "word": {
+      "counts": {
+       "high": 0,
+       "low": 45,
+       "medium": 5
+      },
+      "mean_keywords_present": 0.72,
+      "messages_with_keyword": {
+       "data": 1,
+       "dichiarazione": 0,
+       "funzione": 0,
+       "incarico": 3,
+       "responsabile": 5,
+       "ufficio": 27
+      },
+      "shares": {
+       "high": 0.0,
+       "low": 0.9,
+       "medium": 0.1
+      }
+     }
+    }
+   },
+   "generator": "llama3.1:8b",
+   "n_messages": 100,
+   "substring": {
+    "counts": {
+     "high": 0,
+     "low": 94,
+     "medium": 6
+    },
+    "mean_keywords_present": 0.47,
+    "messages_with_keyword": {
+     "data": 2,
+     "dichiarazione": 0,
+     "funzione": 0,
+     "incarico": 4,
+     "responsabile": 11,
+     "ufficio": 30
+    },
+    "shares": {
+     "high": 0.0,
+     "low": 0.94,
+     "medium": 0.06
+    }
+   },
+   "word": {
+    "counts": {
+     "high": 0,
+     "low": 94,
+     "medium": 6
+    },
+    "mean_keywords_present": 0.47,
+    "messages_with_keyword": {
+     "data": 2,
+     "dichiarazione": 0,
+     "funzione": 0,
+     "incarico": 4,
+     "responsabile": 11,
+     "ufficio": 30
+    },
+    "shares": {
+     "high": 0.0,
+     "low": 0.94,
+     "medium": 0.06
+    }
+   }
+  },
+  "E/gptoss": {
+   "by_attack": {
+    "BEC": {
+     "n_messages": 50,
+     "substring": {
+      "counts": {
+       "high": 1,
+       "low": 29,
+       "medium": 20
+      },
+      "mean_keywords_present": 1.38,
+      "messages_with_keyword": {
+       "data": 20,
+       "dichiarazione": 7,
+       "funzione": 1,
+       "incarico": 6,
+       "responsabile": 8,
+       "ufficio": 27
+      },
+      "shares": {
+       "high": 0.02,
+       "low": 0.58,
+       "medium": 0.4
+      }
+     },
+     "word": {
+      "counts": {
+       "high": 1,
+       "low": 35,
+       "medium": 14
+      },
+      "mean_keywords_present": 1.2,
+      "messages_with_keyword": {
+       "data": 11,
+       "dichiarazione": 7,
+       "funzione": 1,
+       "incarico": 6,
+       "responsabile": 8,
+       "ufficio": 27
+      },
+      "shares": {
+       "high": 0.02,
+       "low": 0.7,
+       "medium": 0.28
+      }
+     }
+    },
+    "SpearPhishing": {
+     "n_messages": 50,
+     "substring": {
+      "counts": {
+       "high": 0,
+       "low": 32,
+       "medium": 18
+      },
+      "mean_keywords_present": 1.26,
+      "messages_with_keyword": {
+       "data": 5,
+       "dichiarazione": 6,
+       "funzione": 0,
+       "incarico": 8,
+       "responsabile": 14,
+       "ufficio": 30
+      },
+      "shares": {
+       "high": 0.0,
+       "low": 0.64,
+       "medium": 0.36
+      }
+     },
+     "word": {
+      "counts": {
+       "high": 0,
+       "low": 33,
+       "medium": 17
+      },
+      "mean_keywords_present": 1.24,
+      "messages_with_keyword": {
+       "data": 4,
+       "dichiarazione": 6,
+       "funzione": 0,
+       "incarico": 8,
+       "responsabile": 14,
+       "ufficio": 30
+      },
+      "shares": {
+       "high": 0.0,
+       "low": 0.66,
+       "medium": 0.34
+      }
+     }
+    }
+   },
+   "generator": "gpt-oss:20b-local",
+   "n_messages": 100,
+   "substring": {
+    "counts": {
+     "high": 1,
+     "low": 61,
+     "medium": 38
+    },
+    "mean_keywords_present": 1.32,
+    "messages_with_keyword": {
+     "data": 25,
+     "dichiarazione": 13,
+     "funzione": 1,
+     "incarico": 14,
+     "responsabile": 22,
+     "ufficio": 57
+    },
+    "shares": {
+     "high": 0.01,
+     "low": 0.61,
+     "medium": 0.38
+    }
+   },
+   "word": {
+    "counts": {
+     "high": 1,
+     "low": 68,
+     "medium": 31
+    },
+    "mean_keywords_present": 1.22,
+    "messages_with_keyword": {
+     "data": 15,
+     "dichiarazione": 13,
+     "funzione": 1,
+     "incarico": 14,
+     "responsabile": 22,
+     "ufficio": 57
+    },
+    "shares": {
+     "high": 0.01,
+     "low": 0.68,
+     "medium": 0.31
+    }
+   }
+  },
+  "E/llama31": {
+   "by_attack": {
+    "BEC": {
+     "n_messages": 50,
+     "substring": {
+      "counts": {
+       "high": 0,
+       "low": 49,
+       "medium": 1
+      },
+      "mean_keywords_present": 0.26,
+      "messages_with_keyword": {
+       "data": 1,
+       "dichiarazione": 0,
+       "funzione": 0,
+       "incarico": 0,
+       "responsabile": 4,
+       "ufficio": 8
+      },
+      "shares": {
+       "high": 0.0,
+       "low": 0.98,
+       "medium": 0.02
+      }
+     },
+     "word": {
+      "counts": {
+       "high": 0,
+       "low": 49,
+       "medium": 1
+      },
+      "mean_keywords_present": 0.26,
+      "messages_with_keyword": {
+       "data": 1,
+       "dichiarazione": 0,
+       "funzione": 0,
+       "incarico": 0,
+       "responsabile": 4,
+       "ufficio": 8
+      },
+      "shares": {
+       "high": 0.0,
+       "low": 0.98,
+       "medium": 0.02
+      }
+     }
+    },
+    "SpearPhishing": {
+     "n_messages": 50,
+     "substring": {
+      "counts": {
+       "high": 0,
+       "low": 42,
+       "medium": 8
+      },
+      "mean_keywords_present": 0.84,
+      "messages_with_keyword": {
+       "data": 0,
+       "dichiarazione": 1,
+       "funzione": 0,
+       "incarico": 9,
+       "responsabile": 1,
+       "ufficio": 31
+      },
+      "shares": {
+       "high": 0.0,
+       "low": 0.84,
+       "medium": 0.16
+      }
+     },
+     "word": {
+      "counts": {
+       "high": 0,
+       "low": 42,
+       "medium": 8
+      },
+      "mean_keywords_present": 0.84,
+      "messages_with_keyword": {
+       "data": 0,
+       "dichiarazione": 1,
+       "funzione": 0,
+       "incarico": 9,
+       "responsabile": 1,
+       "ufficio": 31
+      },
+      "shares": {
+       "high": 0.0,
+       "low": 0.84,
+       "medium": 0.16
+      }
+     }
+    }
+   },
+   "generator": "llama3.1:8b",
+   "n_messages": 100,
+   "substring": {
+    "counts": {
+     "high": 0,
+     "low": 91,
+     "medium": 9
+    },
+    "mean_keywords_present": 0.55,
+    "messages_with_keyword": {
+     "data": 1,
+     "dichiarazione": 1,
+     "funzione": 0,
+     "incarico": 9,
+     "responsabile": 5,
+     "ufficio": 39
+    },
+    "shares": {
+     "high": 0.0,
+     "low": 0.91,
+     "medium": 0.09
+    }
+   },
+   "word": {
+    "counts": {
+     "high": 0,
+     "low": 91,
+     "medium": 9
+    },
+    "mean_keywords_present": 0.55,
+    "messages_with_keyword": {
+     "data": 1,
+     "dichiarazione": 1,
+     "funzione": 0,
+     "incarico": 9,
+     "responsabile": 5,
+     "ufficio": 39
+    },
+    "shares": {
+     "high": 0.0,
+     "low": 0.91,
+     "medium": 0.09
+    }
+   }
+  }
+ },
+ "keywords": [
+  "incarico",
+  "ufficio",
+  "responsabile",
+  "dichiarazione",
+  "data",
+  "funzione"
+ ],
+ "label": 1,
+ "rule": {
+  "high": ">=4 keywords",
+  "low": "otherwise",
+  "medium": ">=2"
+ },
+ "variant": "explicit_inferred"
+}

@@ -1,0 +1,23 @@
+# Case B - regional government (dated CV snapshots).
+# 248 managers; multiple time-stamped CV versions per person (real dates).
+case_id: "B"
+org_type: "regional government"
+
+base_url: "https://PLACEHOLDER-portal.example"
+html_index_dir: "data/private/B/index"
+downloads_dir: "data/private/B/downloads"
+docs_dir: "data/private/B/docs"
+
+inference_model: "gpt-oss:20b"
+exposure_steps: [0.25, 0.50, 0.75, 1.00]
+max_chars: 12000
+carry_history: false
+
+judge_models: ["gemma3:12b", "gemma4:31b", "gpt-oss:120b"]
+generation_models: ["gemma3:12b", "gemma4:31b"]
+max_attrs_in_prompt: 12
+company_name: "PLACEHOLDER_ORG"
+company_domain: "placeholder.example"
+
+legit_corpus: "data/private/legit_it.json"
+output_dir: "outputs/B"

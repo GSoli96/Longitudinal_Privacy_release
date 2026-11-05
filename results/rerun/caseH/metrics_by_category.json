@@ -1,0 +1,62 @@
+{
+ "step": 100,
+ "n_records": 4530,
+ "categories": {
+  "other": {
+   "n": 1130,
+   "n_complete": 1130,
+   "DIR": 0.8805309734513275,
+   "IQS": 0.5099115044247788,
+   "hallucination": 0.002654867256637168
+  },
+  "role_career": {
+   "n": 1307,
+   "n_complete": 1307,
+   "DIR": 0.8477429227237949,
+   "IQS": 0.5319051262433053,
+   "hallucination": 0.001530221882172915
+  },
+  "competences": {
+   "n": 1282,
+   "n_complete": 1282,
+   "DIR": 0.6903276131045242,
+   "IQS": 0.6110764430577224,
+   "hallucination": 0.00078003120124805
+  },
+  "mobility_location": {
+   "n": 207,
+   "n_complete": 207,
+   "DIR": 0.7294685990338164,
+   "IQS": 0.6260869565217392,
+   "hallucination": 0.014492753623188406
+  },
+  "organisation_network": {
+   "n": 374,
+   "n_complete": 374,
+   "DIR": 0.6951871657754011,
+   "IQS": 0.5909090909090908,
+   "hallucination": 0.00267379679144385
+  },
+  "economic": {
+   "n": 226,
+   "n_complete": 226,
+   "DIR": 0.8141592920353983,
+   "IQS": 0.527433628318584,
+   "hallucination": 0.008849557522123894
+  },
+  "special_categories": {
+   "n": 4,
+   "n_complete": 4,
+   "DIR": 0.75,
+   "IQS": 0.55,
+   "hallucination": 0.0
+  },
+  "_special": {
+   "n_special": 6,
+   "share": 0.0013245033112582781,
+   "DIR": 0.5,
+   "IQS": 0.7,
+   "hallucination": 0.0
+  }
+ }
+}

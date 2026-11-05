@@ -1,0 +1,71 @@
+case,model,f1
+A,Logistic Regression,0.9911
+A,Multinomial Naive Bayes,0.9777
+A,Complement Naive Bayes,0.9742
+A,Linear SVC,0.9938
+A,SGD Classifier,0.9944
+A,Decision Tree,0.9699
+A,Random Forest,0.9838
+A,Extra Trees,0.986
+A,Gradient Boosting,0.9834
+A,AdaBoost,0.9702
+B,Linear SVC,0.9978
+B,SGD Classifier,0.9975
+B,Logistic Regression,0.9963
+B,Extra Trees,0.9961
+B,Random Forest,0.9953
+B,Gradient Boosting,0.9926
+B,Decision Tree,0.984
+B,Multinomial Naive Bayes,0.9827
+B,Complement Naive Bayes,0.9813
+B,AdaBoost,0.9753
+C,Linear SVC,0.9978
+C,SGD Classifier,0.9975
+C,Logistic Regression,0.9971
+C,Extra Trees,0.9962
+C,Random Forest,0.9947
+C,Gradient Boosting,0.9927
+C,Decision Tree,0.9837
+C,Multinomial Naive Bayes,0.9827
+C,Complement Naive Bayes,0.9813
+C,AdaBoost,0.9755
+D,Linear SVC,0.9978
+D,SGD Classifier,0.9975
+D,Logistic Regression,0.9971
+D,Extra Trees,0.9962
+D,Random Forest,0.9951
+D,Gradient Boosting,0.9926
+D,Decision Tree,0.9837
+D,Multinomial Naive Bayes,0.9827
+D,Complement Naive Bayes,0.9813
+D,AdaBoost,0.9732
+E,Linear SVC,0.9978
+E,SGD Classifier,0.9975
+E,Logistic Regression,0.9963
+E,Extra Trees,0.9961
+E,Random Forest,0.9953
+E,Gradient Boosting,0.9926
+E,Decision Tree,0.984
+E,Multinomial Naive Bayes,0.9827
+E,Complement Naive Bayes,0.9813
+E,AdaBoost,0.9753
+G,Linear SVC,0.9978
+G,SGD Classifier,0.9975
+G,Logistic Regression,0.9963
+G,Extra Trees,0.9961
+G,Random Forest,0.9953
+G,Gradient Boosting,0.9926
+G,Decision Tree,0.984
+G,Multinomial Naive Bayes,0.9827
+G,Complement Naive Bayes,0.9813
+G,AdaBoost,0.9753
+H,Linear SVC,0.9978
+H,SGD Classifier,0.9975
+H,Logistic Regression,0.9963
+H,Extra Trees,0.9961
+H,Random Forest,0.9953
+H,Gradient Boosting,0.9926
+H,Decision Tree,0.984
+H,Multinomial Naive Bayes,0.9827
+H,Complement Naive Bayes,0.9813
+H,AdaBoost,0.9753

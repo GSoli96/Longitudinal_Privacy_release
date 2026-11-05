@@ -1,0 +1,19 @@
+# Narrow allow list for scripts/anonymisation_check.py (see docs/ANONYMISATION.md, Section 7.1).
+# One regular expression per line (the whole matched string must match); "host:" lines allow a URL host.
+# Every entry says why it is safe. Use it with:  --allow-file docs/anonymisation_allow.txt
+
+# Synthetic fixtures of tests/rerun/test_ablation.py (generalise_text). None of them identifies a person:
+# the tax code is the well-known specimen value used in the Italian documentation (its checksum fails, which
+# is why the scanner appends a note), the IBAN is the specimen IBAN of the IBAN registry, the telephone
+# number is a made-up sequence, and the date is a made-up date. The first and the third entries are written
+# with a character class so that this file does not trigger the scanner itself.
+RSSMRA75C12H50[1]X(?: \(checksum fails\))?
+IT60X0542811101000000123456
+06 12345678
+.*12/03/197[5].*
+
+# Generic words that look like domains. The spear-phishing prompt template in src/phishing.py builds sender
+# addresses from placeholders and the word "supporto.it" is only an example; tests/rerun/test_artefacts.py
+# checks the removal of a placeholder domain. Neither is a real administration.
+host:supporto.it
+host:ente.it

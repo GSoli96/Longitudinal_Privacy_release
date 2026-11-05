@@ -1,0 +1,11 @@
+[01:44:04] models to run: ['Logistic Regression', 'Decision Tree', 'Random Forest', 'Gradient Boosting']; resumed: []
+.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:1435: FutureWarning: 'n_jobs' has no effect since 1.8 and will be removed in 1.10. You provided 'n_jobs=1', please leave it unspecified.
+  warnings.warn(msg, category=FutureWarning)
+.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:1435: FutureWarning: 'n_jobs' has no effect since 1.8 and will be removed in 1.10. You provided 'n_jobs=1', please leave it unspecified.
+  warnings.warn(msg, category=FutureWarning)
+.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:1435: FutureWarning: 'n_jobs' has no effect since 1.8 and will be removed in 1.10. You provided 'n_jobs=1', please leave it unspecified.
+  warnings.warn(msg, category=FutureWarning)
+[01:44:10] Logistic Regression done in 1.5s
+[01:44:28] Decision Tree done in 19.6s
+[01:48:08] Random Forest done in 240.1s
+[01:52:51] Gradient Boosting done in 522.4s
